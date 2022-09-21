@@ -6,12 +6,12 @@ export const config = {
   // 公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wx6ac9a1023f19bdf9",
 
   // 公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
+  APP_SECRET: "845dc5aeedf936e49ff305f00dd86b3a",
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
@@ -57,7 +57,7 @@ export const config = {
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
    */
-  USERS: [
+  USERS: ["oiWYj6ajs8TQObYCxZo7DxI-D5pw","oiWYj6cDzb-nYGNMm52TC4QP-Dpw"]
     {
       // 想要发送的人的名字
       name: "老婆0",
@@ -95,16 +95,16 @@ export const config = {
       ]
     },
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      name: "王潘飞",
+      id: "wx6ac9a1023f19bdf9",
+      useTemplateId: "IT4tbxD66pXSfXA2vPj1PrLZN8dqanzRdiZlx3fpMmE",
+      province: "浙江",
+      city: "杭州",
+      horoscopeDate: '11-08',
+      horoscopeDateType: '今日',
+      openUrl: "",
+      festivals: [{"type": "生日", "name": "王潘飞", "year": "2002", "date": "11-08"}],
+      customizedDateList: [ {"keyword": "love_day", date: "2021-12-25"}]
     },
     {
       name: "老婆2",
@@ -160,9 +160,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "浙江",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "杭州",
 
   /** 重要节日相关 */
 
